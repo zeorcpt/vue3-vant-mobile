@@ -12,15 +12,12 @@ declare module '@vue/runtime-core' {
     AppTable: typeof import('./src/components/AppTable/index.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    Sidebar: typeof import('./src/components/Sidebar/index.vue')['default']
     VanButton: typeof import('vant/es')['Button']
     VanCell: typeof import('vant/es')['Cell']
-    VanCol: typeof import('vant/es')['Col']
     VanField: typeof import('vant/es')['Field']
     VanForm: typeof import('vant/es')['Form']
     VanIcon: typeof import('vant/es')['Icon']
     VanImage: typeof import('vant/es')['Image']
     VanNavBar: typeof import('vant/es')['NavBar']
-    VanRow: typeof import('vant/es')['Row']
   }
 }

@@ -7,7 +7,7 @@
   <transition name="van-slide-left">
     <div v-show="!menuStore.isCollapse" class="menu menu-fixed">
       <van-collapse v-model="activeNames">
-        <template v-for="route in mRoutes" :key="route.name">
+        <template v-for="route in layoutRoutes" :key="route.name">
           <van-collapse-item v-if="route.children?.length" :name="(route.name as string)">
             <template #title>
               <div class="menu-item">
@@ -46,7 +46,7 @@
 
 <script setup lang="ts">
   import { RouteRecordRaw } from 'vue-router';
-  import { mRoutes } from '@/router';
+  import { layoutRoutes } from '@/router';
   import { useMenuStore } from '@/store';
 
   const router = useRouter();
