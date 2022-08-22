@@ -1,0 +1,46 @@
+{
+  "name": "vue3-vant-mobile",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "start": "npm run dev",
+    "build": "vue-tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .js,.vue,.ts src --fix"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.27.2",
+    "pinia": "^2.0.18",
+    "vant": "^3.5.4",
+    "vconsole": "^3.14.6",
+    "vue": "^3.2.37",
+    "vue-router": "^4.1.3"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.18.9",
+    "@rollup/plugin-babel": "^5.3.1",
+    "@types/node": "^18.6.5",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
+    "@vitejs/plugin-vue": "^3.0.0",
+    "autoprefixer": "^10.4.8",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-vue": "^9.3.0",
+    "less": "^4.1.3",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.7.1",
+    "terser": "^5.14.2",
+    "typescript": "^4.6.4",
+    "unplugin-auto-import": "^0.11.1",
+    "unplugin-vue-components": "^0.22.4",
+    "vite": "^3.0.0",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-vconsole": "^1.2.2",
+    "vue-tsc": "^0.38.4"
+  }
+}
