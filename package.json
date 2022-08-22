@@ -4,9 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --mode development",
     "start": "npm run dev",
     "build": "vue-tsc --noEmit && vite build",
+    "build:dev": "vue-tsc --noEmit && vite build --mode development",
+    "build:test": "vue-tsc --noEmit && vite build --mode test",
+    "build:pro": "vue-tsc --noEmit && vite build --mode production",
     "preview": "vite preview",
     "lint": "eslint --ext .js,.vue,.ts src --fix"
   },
